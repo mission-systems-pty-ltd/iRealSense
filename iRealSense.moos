@@ -1,0 +1,17 @@
+//------------------------------------------------
+// iRealSense config block
+
+ProcessConfig = iRealSense
+{
+   Serial_number = 745412070540
+   Translation   = [1x3]{0.0, 0.0, 0.0}
+   Rotation      = [1x3]{0.0, 0.0, 0.0}
+   Video         = True
+   Thumbnail     = True
+   RGB           = True
+   Resolution    = 0
+   Frame_rate    = 30
+   Reference_frame	= REALSENSE 		// see ReferenceFrame in RealSense.h
+   Camera_height 	= 0.0               // leave at 0.0 for no transformation
+   Estimator		= Off               // Set to off by default
+}
